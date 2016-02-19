@@ -16,3 +16,11 @@ fi
 #
 bindkey -M viins '^r' history-incremental-search-backward
 bindkey -M vicmd '^r' history-incremental-search-backward
+
+# alias the ssh command to allow the TERM env var to be fixed
+#
+alias ssh='TERM=xterm ssh'
+
+# alias the tmux command to force 256 colours on start
+#
+alias tmux='tmux -2'
